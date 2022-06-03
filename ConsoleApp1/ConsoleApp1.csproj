@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ConsoleApp1.Algorithms.등차수열.수열퀴즈</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\SumAlgorithm.cs" />
+    <Compile Include="Algorithms\등차수열\간단수열.cs" />
+    <Compile Include="Algorithms\등차수열\등차수열.cs" />
+    <Compile Include="Algorithms\등차수열\수열문제.cs" />
+    <Compile Include="Algorithms\등차수열\수열퀴즈.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

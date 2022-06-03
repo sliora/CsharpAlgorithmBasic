@@ -25,5 +25,7 @@ class SumAlgorithm
 
         //[3] Output
         Console.WriteLine($"{scores.Length} 명의 점수 중 80점 이상의 총점: {sum}");
+
+        //[!] 디버깅(디버깅 S/W)를 사용하여 디버깅하기 : F9 -> F5 -> F11 -> F5
     }
 }
