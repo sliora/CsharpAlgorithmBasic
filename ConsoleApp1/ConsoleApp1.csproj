@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Algorithms.CountAlgorithm.PrimeNumber</StartupObject>
+    <StartupObject>ConsoleApp1.Algorithms.CountAlgorithm.PrimeNumberCount</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\CountAlgorithm\소수.cs" />
+    <Compile Include="Algorithms\CountAlgorithm\소수_개수.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Algorithms\등차수열\간단수열.cs" />
     <Compile Include="Algorithms\등차수열\등차수열.cs" />

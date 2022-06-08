@@ -21,7 +21,6 @@ namespace ConsoleApp1.Algorithms.CountAlgorithm
             {
                 k++;
                 Console.WriteLine("{0} % {1} = {2}", num, k, num % k);
-
             } while (num % k != 0);
 
             if (num == k)
