@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Algorithms.AverageAlgorithm.AverageAlgorithm</StartupObject>
+    <StartupObject>ConsoleApp1.Algorithms.AverageAlgorithm.ArraySumAverage</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\AverageAlgorithm\ArraySumAverage.cs" />
     <Compile Include="Algorithms\AverageAlgorithm\AverageAlgorithm.cs" />
+    <Compile Include="Algorithms\AverageAlgorithm\평균이상학생수.cs" />
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\CountAlgorithm\소수.cs" />
     <Compile Include="Algorithms\CountAlgorithm\소수_개수.cs" />
